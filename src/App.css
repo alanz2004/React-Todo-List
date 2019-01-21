@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.App .add-container {
+  width: 25%;
+  display: flex;
+}
+.App-logo {
+
+  animation: App-logo-spin infinite 20s linear;
+
+  height: 250px;
+
+}
+@keyframes App-logo-spin {
+
+  from { transform: rotate(0deg); }
+
+  to { transform: rotate(360deg); }
+
+}
+ul {
+  list-style-type: none;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+  width: 100%;
+}
+ul li {
+   margin: 1%;
+   width: 100px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   color:#56CCF2;
+   font-size: 2rem;
+}
+ul li button {
+  margin: 15px;
+  width: 100px;
+  height: 50px;
+  color:#56CCF2;
+}
+.App .add-container input {
+
+  height: 54px;
+
+  width: 100%;
+   
+  border-radius: 3px;
+
+  border: 1px solid transparent;
+
+  border-top: none;
+
+  border-bottom: 1px solid #DDD;
+
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+
+  font-size: 25px;
+
+  color:#56CCF2;
+
+}
+.App .add-container button {
+  width: 50%;
+  height: 54px;
+  border: 1px solid transparent;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  border-bottom: 1px solid #DDD;
+  margin-left: 5px;
+  color:#56CCF2;
+}
