@@ -1,3 +1,6 @@
+To get all dependenices clone or download the files into one folder.
+In this folder run npm install.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
